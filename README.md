@@ -1,0 +1,3 @@
+# R45 Quad Control
+
+One Transmission Quad supply went bad (PowerTEN R63) and was replaced by one of the supplies from the R45 Quads (another PowerTEN R63) in order to continure running on R30.  In order to run on R45, the replacement was replaced by a Sorensen SGA.  The R63's are controlled via GPIB and the SGA via ethernet, so this VI was created to control it without having to recompile all of the control software.
